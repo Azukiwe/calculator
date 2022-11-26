@@ -49,43 +49,51 @@
     height: 500px;
     
 } */
-#button:hover{
+.button:hover{
     background-color: deeppink;
 }
-#button{
+.button{
     border: 2px solid grey;
     color: black;
     border-radius: 40px;
     font-size: 2rem;
-    cursor: pointer;
     width: 50px;
    
 }
-#del{
+.del{
     border: 2px solid grey;
     border-radius:40px ;
     width: 80px;
     height: 50px;
    
 }
-#del:hover{
+.del:hover{
     background-color: plum;
 }
 #screen{
     height: 90px;
    width: 300px;
    text-align: right;
-   background-color: grey;
+   background-color:lightgrey;
    border-radius: 5px;
-   color: aliceblue;
+   color:black;
    font-family: 'Courier New', Courier, monospace;
-   font-size: 2rem;  
-   word-wrap: break-word;
-   word-break: break-all;
+   font-size: 2rem; 
+   word-wrap: break-word; 
 }
 #equal{
     border: 2px solid grey;
     border-radius: 20px;
     height: 50px;
     font-size: 2rem;
+    grid-column: 3/-1;
 }
+#equal:hover{
+    background-color: grey;
+}
+@media screen and (max-width: 300px){
+    .container{
+        scale: 0.80;
+    }
+}
+    
